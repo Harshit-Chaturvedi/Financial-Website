@@ -1,0 +1,69 @@
+#what .items{
+    display: block;
+}
+
+
+
+
+/* Align items to the left */
+
+#what .items .item {
+    display: flex;
+    text-align: left;
+}
+
+/* Position Icons */
+
+
+#what .items .item i {
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+
+@media(max-width:500px){
+    #nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav-bar .logo {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    #nav-bar .ul{
+        padding: 0.5rem;
+    }
+    #showcase .showcase-content{
+        top: 85px;
+        /* bottom: ; */
+        
+    }
+
+    #who {
+        display: block;
+    }
+    #who-img {
+        display: none;
+    }
+
+    #clients .items img{
+        width: 80%;
+
+
+    }
+    #clients .items div:last-child{
+        display: none;
+    }
+    #contact{
+        display: block;
+    }
+
+    #contact .map{
+        height: 250px;
+        border-top: 4px solid #322;
+        
+    }
+}
+

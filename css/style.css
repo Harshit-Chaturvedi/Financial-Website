@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    margin: 0.75rem 0;
+}
+
+/* Utlity Classes */
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+.primary-text{
+    color:	#dbaf0f;
+}
+
+.bg-dark {
+    background: #4c4c4c;
+    color: #fff;
+}
+
+.bg-primary{
+    background: #6f1e22;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.l-heading {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
+.lead-para{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #dbaf0f;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: 
+    #e5c100;    
+}
+
+.btn-dark {
+    background: #6f1e22;
+    color: #fff;
+}
+.btn-dark:hover{
+    background: #dbaf0f;
+}
+
+.py-1 {padding: 1.5rem 0;}
+.py-2 {padding: 2rem 0;}
+.py-3 {padding: 3rem 0;}
+
+.p-1{padding: 1.5rem;}
+.p-2{padding: 2rem;}
+.p-3{padding: 3rem;}
+
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+.list li {
+    padding: 0.4rem 0;
+    border-bottom: 1px dotted #fff;
+}
+
+/* NavBar */
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    background:	#6f1e22;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+}
+
+
+#nav-bar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#nav-bar ul li a{
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#nav-bar ul li a:hover{
+    background: #dbaf0f;
+    border-radius: 5px;
+}
+
+/* Showcase */
+
+#showcase {
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    /* Overlay */
+    position: absolute;
+    top: 61px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* What we do */
+
+#what .items {
+    display: flex;
+    padding: 1rem;
+}
+
+#what .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#what .items .item i{
+    background: #dbaf0f;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1.4rem;
+}
+/* Who we are */
+
+#who {
+    display: flex;
+
+}
+
+#who div {
+    flex: 1;
+}
+
+#who .who-img {
+    background: url('../img/people.jpg') no-repeat center center/cover;
+}
+
+/* Clients */
+
+#clients .items{
+    display: flex;
+}
+
+#clients .items img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+/* Section: Contact  */
+
+#contact {
+    display: flex;
+}
+
+#contact .map, #contact .contact-form {
+    flex: 1;
+  }
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+}
+
+#contact .contact-form .form-group label {
+    display: block;
+    /* margin-bottom: 0.5rem; */
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#contact  .map{
+    background: url('../img/cartodb_placeholder.png') no-repeat center center/cover;
+    
+}
+
+
+/* footer */
+
+footer{
+    background: #6f1e22;
+    color: #fff;
+}   
